@@ -1,0 +1,2 @@
+[05-Feb-2013 15:43:31] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/classes/order.php on line 1027
+[05-Feb-2013 15:43:31] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

@@ -1,0 +1,1 @@
+[28-Jan-2013 19:54:37] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/common/tpl_main_page.php on line 96

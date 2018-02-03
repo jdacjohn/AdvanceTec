@@ -1,0 +1,2 @@
+[01-Feb-2013 15:34:33] PHP Fatal error:  Call to undefined function output() in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/templates/tpl_checkout_payment_default.php on line 64
+[01-Feb-2013 15:34:33] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

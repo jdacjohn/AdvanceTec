@@ -1,0 +1,2 @@
+[04-Oct-2012 08:34:21] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/templates/tpl_modules_main_product_image.php on line 21
+[04-Oct-2012 08:34:21] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

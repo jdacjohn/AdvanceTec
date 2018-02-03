@@ -1,0 +1,2 @@
+[07-Nov-2012 14:20:38] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/templates/tpl_modules_products_all_listing.php on line 204
+[07-Nov-2012 14:20:38] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

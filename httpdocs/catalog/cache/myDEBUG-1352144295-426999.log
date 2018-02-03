@@ -1,0 +1,2 @@
+[05-Nov-2012 12:38:15] PHP Catchable fatal error:  Object of class template_func could not be converted to string in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/templates/tpl_products_all_default.php on line 54
+[05-Nov-2012 12:38:15] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

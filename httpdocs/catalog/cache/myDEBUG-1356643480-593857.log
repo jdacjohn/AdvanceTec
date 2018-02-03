@@ -1,0 +1,2 @@
+[27-Dec-2012 14:24:40] PHP Parse error:  syntax error, unexpected '<' in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/common/tpl_header.php on line 82
+[27-Dec-2012 14:24:40] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

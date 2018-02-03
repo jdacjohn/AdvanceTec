@@ -1,0 +1,2 @@
+[05-Feb-2013 13:50:56] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/classes/order.php on line 1040
+[05-Feb-2013 13:50:56] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

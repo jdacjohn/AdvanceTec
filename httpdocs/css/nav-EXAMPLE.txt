@@ -1,0 +1,178 @@
+//--------------------- Last Modified --> 2007.01.12 ---------------------//
+//-----------------------------------------------------------------------//
+
+
+
+/* ------------------------ horizontal sprite nav ------------------------ */
+#nav { 
+	background:url("../images/nav.jpg") no-repeat; 
+	width:760px; 
+	height:30px; 
+	margin:0;
+	padding:0; 
+	}
+
+#nav span { display: none; }
+
+#nav li, #nav a { height:30px; display:block; } /* change height here also */
+
+#nav li { float:left; list-style:none; _display:inline; position:relative; }
+
+#nav-01 { width: 79px; margin-left: 79px;}
+#nav-02 { width: 89px;}
+#nav-03 { width: 94px;}
+#nav-04 { width: 87px;}
+#nav-05 { width: 89px;}
+#nav-06 { width: 92px;}
+
+
+/*-------------- (-79px) X position of button / (-30px) height of image from above ------------- */
+#nav-01 a:hover { background:url("../images/nav.jpg")  -79px -30px no-repeat; }
+#nav-02 a:hover { background:url("../images/nav.jpg") -158px -30px no-repeat; }
+#nav-03 a:hover { background:url("../images/nav.jpg") -247px -30px no-repeat; }
+#nav-04 a:hover { background:url("../images/nav.jpg") -341px -30px no-repeat; }
+#nav-05 a:hover { background:url("../images/nav.jpg") -428px -30px no-repeat; }
+#nav-06 a:hover { background:url("../images/nav.jpg") -460px -30px no-repeat; }
+
+
+/*-------------- OPTIONAL - Keeps the hover state on each page based on body id ------------- */
+body#SPECIFY #nav-01 { background:url("../images/nav.jpg")  -79px -30px no-repeat; }
+body#SPECIFY #nav-02 { background:url("../images/nav.jpg") -158px -30px no-repeat; }
+body#SPECIFY #nav-03 { background:url("../images/nav.jpg") -247px -30px no-repeat; }
+body#SPECIFY #nav-04 { background:url("../images/nav.jpg") -341px -30px no-repeat; }
+body#SPECIFY #nav-05 { background:url("../images/nav.jpg") -428px -30px no-repeat; }
+body#SPECIFY #nav-06 { background:url("../images/nav.jpg") -460px -30px no-repeat; }
+
+/* ------------------------ son of suckerfish: horizontal sprite nav ------------------------ */
+#nav li ul {
+	position:absolute;
+	left:-9999px;
+	padding-right:1px; /* Fixes one px spacing for border-right in FF */
+	background-color:#720000;	/* Background color of drop down nav - add more styles (i.e. background image) if you want */
+	}
+
+#nav li ul li { 
+	height:20px; /* Height of each drop down nav item */
+	border:1px solid #FF00FF;
+	border-top:none;
+	}	
+
+#nav li ul li a {
+	width:100%;
+	height:20px;	/* Height of each drop down nav item, should match above */
+	line-height:20px;	 /* Height of each drop down nav item again, should match above */
+	}
+
+#nav li ul li a span {
+	display:block;
+	padding-left:5px;
+	}
+
+/* Drop down link styles */
+#nav a:link, #nav a:visited, #nav a:hover, #nav a:active {
+	font-size:1.0em;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+
+#nav li:hover ul, #nav li.sfHover ul	{ left: auto; }
+
+/* Hover styles for drop down items */
+#nav-03 ul a:hover, #nav-04 ul a:hover { 
+	background-image:none;
+	background-color:#AA0000;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+
+/* width of drop down nav - choose width that allows items to display on one line */
+#nav-03 ul, #nav-03 li { width:260px; }		
+#nav-04 ul, #nav-04 li { width:90px; }
+
+
+/* ------------------------ vertical sprite nav ------------------------ */
+#nav {
+	background:url("../images/nav.jpg") top left no-repeat;					
+	width:270px;	/* Width of buttons, not entite image (or half of entire image) */
+	height:150px;	 /* Height of entire image */
+	margin:0;
+	padding:0;
+	}
+
+#nav li span { display: none; }
+
+#nav li { float:left; list-style:none; position:relative; }
+
+#nav li, #nav a { 
+	height:30px;	/* Each button must have the same height, define it here */
+	display:block;
+	}
+
+/* margin-top to set where the nav should begin */
+#nav-01 { margin-top:15px; width:100px; }
+
+/* margin-top if there is a spacing between each nav button */
+#nav-02, #nav-03, #nav-04, #nav-05, #nav-06 { margin-top:0; width:100px; }
+
+#nav-01 a:hover { background:url("../images/nav.jpg") -100px  -15px no-repeat; }
+#nav-02 a:hover { background:url("../images/nav.jpg") -100px  -30px no-repeat; }
+#nav-03 a:hover { background:url("../images/nav.jpg") -100px  -60px no-repeat; }
+#nav-04 a:hover { background:url("../images/nav.jpg") -100px  -90px no-repeat; }
+#nav-05 a:hover { background:url("../images/nav.jpg") -100px -120px no-repeat; }
+#nav-06 a:hover { background:url("../images/nav.jpg") -100px -150px no-repeat; }
+
+/*-------------- OPTIONAL - Keeps the hover state on each page based on body #id ------------- */
+body#SPECIFY #nav-01 { background:url("../images/nav.jpg") -100px  -15px no-repeat; }
+body#SPECIFY #nav-02 { background:url("../images/nav.jpg") -100px  -30px no-repeat; }
+body#SPECIFY #nav-03 { background:url("../images/nav.jpg") -100px  -60px no-repeat; }
+body#SPECIFY #nav-04 { background:url("../images/nav.jpg") -100px  -90px no-repeat; }
+body#SPECIFY #nav-05 { background:url("../images/nav.jpg") -100px -120px no-repeat; }
+body#SPECIFY #nav-06 { background:url("../images/nav.jpg") -100px -150px no-repeat; }
+
+
+/* ------------------------ son of suckerfish: vertical sprite nav ------------------------ */
+#nav li ul {
+	position:absolute;
+	left:-9999px;
+	background-color:#720000;	/* Background color of drop down nav - add more styles (i.e. background image) if you want */
+	margin-left:100px; /* Set to same width as in #nav */
+	margin-top:-30px; /* Set to each button height, same as used above */
+	}
+
+#nav li ul li {
+	height:20px; /* Height of each drop down nav item */
+	border:1px solid #FF00FF;
+	border-top:none;
+	}
+
+#nav li ul li a {
+	width:100%;
+	height:20px; /* Height of each drop down nav item, should match above */
+	line-height:20px;	 /* Height of each drop down nav item again, should match above */
+	}
+
+#nav li ul li a span {
+	display:block;
+	padding-left:5px;
+	}
+
+/* Drop down link styles */
+#nav a:link, #nav a:visited, #nav a:hover, #nav a:active {
+	font-size:1.0em;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+
+#nav li:hover ul, #nav li.sfHover ul	{ left: auto; }
+
+/* Hover styles for drop down items */
+#nav-03 ul a:hover, #nav-04 ul a:hover { 
+	background-image:none;
+	background-color:#AA0000;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+
+/* width of drop down nav - choose width that allows items to display on one line */
+#nav-03 ul, #nav-03 li { width:260px; }		
+#nav-04 ul, #nav-04 li { width:90px; }

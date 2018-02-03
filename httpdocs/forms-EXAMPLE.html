@@ -1,0 +1,183 @@
+<!--------------------- Last Modified -- 2007.01.12 --------------------->
+<!----------------------------------------------------------------------------------->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Contact Forms</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<script src="js/scripts.js" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+<div id="wrap">
+	
+	
+	<!-- QUICK CONTACT -->
+	
+	<form action="http://www.vabforms.com/cgi-bin/form.cgi" method="post" name="contact-quick" id="contact-quick" onsubmit="YY_checkform('contact-quick','contact_greeting','#q','0','\' Address me as \' is required.','contact_email','S','2','\' Email \' is required.');return document.MM_returnValue">
+		<fieldset>
+		<label>* indicates a required field</label>
+		<br />
+		<input name="contact_greeting" id="contact_greeting" type="text" onfocus="clearText(this)" onblur="replaceText(this)" value="* Address me as" />
+		<br />
+		<input name="contact_email" id="contact_email" type="text" onfocus="clearText(this)" onblur="replaceText(this)" value="* Email" />
+		<br />
+		<input name="contact_home_phone" id="contact_home_phone" type="text" onfocus="clearText(this)" onblur="replaceText(this)" value="Phone" />
+		<br />
+		<textarea name="contact_comment" id="contact_comment" onfocus="clearText(this)" onblur="replaceText(this)" rows="7" cols="15">Message</textarea>
+ 		<input type="text" name="contact_business" id="contact_business" />  		
+		<br />
+		<input type="hidden" name="formname" value="" />
+		<input name="Submit" id="Submit" class="submit" type="submit" value="Submit" />
+		</fieldset>
+	</form>
+	
+	
+	<!-- MAIN CONTACT for LAW  -->
+	
+	<form action="http://www.vabforms.com/cgi-bin/form.cgi" method="post" name="contact-main" id="contact-main" onsubmit="YY_checkform('contact-main','contact_greeting','#q','0','\' Address me as \' is required.','contact_email','S','2','\' Email \' is required.');return document.MM_returnValue">
+		<fieldset>
+		<label>* indicates a required field</label>
+		<br />
+		<label>First Name:
+		<input name="contact_first_name" id="contact_first_name" type="text" />
+		</label>
+		<br />
+		<label>Last Name:
+		<input name="contact_last_name" id="contact_last_name" type="text" />
+		</label>
+		<br />
+		<label>* Address me as:
+		<input name="contact_greeting" id="contact_greeting" type="text" />
+		</label>
+		<br />
+		<label>* Email:
+		<input name="contact_email" id="contact_email" type="text" />
+		</label>
+		<br />
+		<label>Phone:
+		<input name="contact_home_phone" id="contact_home_phone" type="text" />
+		</label>
+		<br />
+		<label>Comments:
+		<textarea name="contact_comment" id="contact_comment" rows="7" cols="18"></textarea>
+ 		<input type="text" name="contact_business" id="contact_business" />
+		</label>
+		<br />
+		<input type="hidden" name="formname" value="" />
+        <input name="Submit" id="Submit" type="submit" value="Submit" class="submit-contact-main" />
+        </fieldset>
+	</form>
+	
+	
+	<!-- MAIN CONTACT for MEDICAL or DENTAL  -->
+	
+	<form action="http://www.vabforms.com/cgi-bin/form.cgi" method="post"  name="contact-main" id="contact-main" onsubmit="YY_checkform('contact-main','contact_greeting','#q','0','\' Address me as \' is required.','contact_email','S','2','\' Email \' is required.');return document.MM_returnValue">
+		<fieldset>
+		<label>* indicates a required field</label>
+		<br />
+		<label>First Name:
+		<input name="contact_first_name" id="contact_first_name" type="text" />
+		</label>
+		<br />
+		<label>Last Name:
+		<input name="contact_last_name" id="contact_last_name" type="text" />
+		</label>
+		<br />
+		<label>* Address me as:
+		<input name="contact_greeting" id="contact_greeting" type="text" />
+		</label>
+		<br />
+		<label>* Email:
+		<input name="contact_email" id="contact_email" type="text" />
+		</label>
+		<br />
+		<label>Phone:
+		<input name="contact_home_phone" id="contact_home_phone" type="text" />
+		</label>
+		<br />
+		<label>How did you hear about our practice?
+		<select name="contact_how_did_you_hear_about_our_practice" id="contact_how_did_you_hear_about_our_practice">
+			<option selected="selected">Choose one...</option>
+			<option value="DocShop.com">DocShop.com</option>
+			<option value="Internet">Internet</option>
+			<option value="Staff Member">Staff Member </option>
+			<option value="Advertisement">Advertisement</option>
+			<option value="Yellow Pages">Yellow Pages</option>
+			<option value="Other">Other</option>
+		</select>
+		</label>
+		<br />
+		<label>How did you find our website?
+		<select name="contact_how_did_you_find_our_website" id="contact_how_did_you_find_our_website">
+			<option selected="selected">Choose one...</option>
+			<option value="DocShop.com">DocShop.com</option>
+			<option value="Search Engine">Search Engine</option>
+			<option value="Advertisement">Advertisement</option>
+			<option value="A friend">A friend</option>
+			<option value="Unknown">Unknown</option>
+		</select>
+		</label>
+		<br />
+		<label>Comments:
+		<textarea name="contact_comment" id="contact_comment" rows="7" cols="18"></textarea>
+ 		<input type="text" name="contact_business" id="contact_business" />
+		</label>
+		<br />
+		<input type="hidden" name="formname" value=""/>
+		<input name="Submit" id="Submit" type="submit" value="Submit" class="submit-contact-main" />
+		</fieldset>
+	</form>
+	
+	
+	<!-- Multi FormName Setup  -->
+	
+	<form action="http://www.vabforms.com/cgi-bin/form.cgi" method="post"  name="contact-main" id="contact-main" onsubmit="YY_checkform('contact-main','contact_greeting','#q','0','\' Address me as \' is required.','contact_email','S','2','\' Email \' is required.','formname','#q','1','\' Which Doctor would you like to hear from? \' is required.');return document.MM_returnValue" >
+		<fieldset>
+		<label>* indicates a required field</label>
+		<br />
+		<label>First Name:
+		<input name="contact_first_name" id="contact_first_name" type="text" />
+		</label>
+		<br />
+		<label>Last Name:
+		<input name="contact_last_name" id="contact_last_name" type="text" />
+		</label>
+		<br />
+		<label>* Address me as:
+		<input name="contact_greeting" id="contact_greeting" type="text" />
+		</label>
+		<br />
+		<label>* Email:
+		<input name="contact_email" id="contact_email" type="text" />
+		</label>
+		<br />
+		<label>Phone:
+		<input name="contact_home_phone" id="contact_home_phone" type="text" />
+		</label>
+		<br />
+		<label>* Which Doctor would you like to hear from?
+		<select name="formname" id="formname">
+			<option selected="selected" value="">Choose one...</option>
+			<option value="">Any Dr or Location</option>
+			<option value="">Location/Dr One</option>
+			<option value="">Location/Dr Two</option>
+			<option value="">Location/Dr Three </option>
+			<option value="">Location/Dr Four</option>
+		</select>
+		</label>
+		<br />
+		<label>Comments:
+		<textarea name="contact_comment" id="contact_comment" rows="7" cols="18"></textarea>
+ 		<input type="text" name="contact_business" id="contact_business" />
+		</label>
+		<br />
+		<input name="Submit" id="Submit" type="submit" value="Submit" class="submit-contact-main" />
+		</fieldset>
+  </form>
+	
+</div>
+</body>
+</html>

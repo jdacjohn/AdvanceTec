@@ -1,0 +1,2 @@
+[20-Sep-2012 13:22:59] PHP Fatal error:  Function name must be a string in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/templates/tpl_shopping_cart_default.php on line 28
+[20-Sep-2012 13:22:59] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

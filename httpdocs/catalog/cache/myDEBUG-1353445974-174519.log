@@ -1,0 +1,2 @@
+[20-Nov-2012 14:12:54] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/templates/tpl_product_info_display_all_products.php on line 39
+[20-Nov-2012 14:12:54] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

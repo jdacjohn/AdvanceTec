@@ -1,0 +1,1 @@
+[22-Aug-2012 16:27:16] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/includes/functions/sessions.php on line 55

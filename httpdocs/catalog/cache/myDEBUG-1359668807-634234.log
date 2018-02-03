@@ -1,0 +1,2 @@
+[31-Jan-2013 14:46:48] PHP Parse error:  syntax error, unexpected $end in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/common/tpl_main_page.php on line 240
+[31-Jan-2013 14:46:48] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55

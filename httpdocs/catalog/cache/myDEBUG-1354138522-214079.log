@@ -1,0 +1,2 @@
+[28-Nov-2012 14:35:22] PHP Catchable fatal error:  Object of class queryFactoryResult could not be converted to string in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/templates/template_default/templates/tpl_modules_products_all_listing.php on line 140
+[28-Nov-2012 14:35:22] PHP Fatal error:  Class 'queryFactory' not found in /var/www/vhosts/uppercasedesigngroup.com/subdomains/advancetec/httpdocs/catalog/includes/functions/sessions.php on line 55
